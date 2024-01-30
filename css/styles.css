@@ -346,11 +346,9 @@ img {
 }
 
 .portfolio-item {
-  display: flex;
   width: 360px;
   flex-direction: column;
   align-items: flex-start;
-  border: 1px solid #e7e9fc;
   background: #fff;
   border-top: none;
 }
@@ -359,7 +357,6 @@ img {
 }
 
 .portfolio-item-cont {
-  display: flex;
   flex-direction: column;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
