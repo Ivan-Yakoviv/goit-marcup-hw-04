@@ -163,7 +163,6 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/people-office.jpg);
-
   padding: 188px 0;
 }
 
@@ -236,6 +235,7 @@ img {
 
 .visually-hidden {
 }
+
 .features-list {
   display: flex;
   gap: 24px;
@@ -245,6 +245,16 @@ img {
   flex-direction: column;
   gap: 8px;
   width: calc((100% - 72px) / 4);
+}
+
+.features-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .features-title {
